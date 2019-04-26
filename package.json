@@ -56,8 +56,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js",
-    "migrate": "rm -rf ./build;  tronbox migrate --network shasta; rm -rf ./src/contracts; cp -r ./build/contracts ./src"
+    "test": "node scripts/test.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -115,7 +114,6 @@
     ]
   },
   "devDependencies": {
-    "source-map-loader": "^0.2.4",
-    "tronbox": "^2.2.0"
+    "source-map-loader": "^0.2.4"
   }
 }
